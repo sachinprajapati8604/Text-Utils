@@ -1,10 +1,28 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+#myBox{
+  resize: none;
+}
+
+.button-box button{
+  margin: 10px;
+}
+#myalert{
+  height: 50px;
+}
+
+
+.light{
+  color: #fff;
+
+}
+
+.dark{
+  color: #000;
 }
 
 @media (prefers-reduced-motion: no-preference) {

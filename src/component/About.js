@@ -1,6 +1,10 @@
 import React from 'react'
 
 export default function About(props) {
+    let myStyle={
+        color:props.mode==='dark'?'white':'black',
+        backgroundColor:props.mode==='dark'?'black':'white'
+    }
     return (
         <div className="container my-4">
             <h2 style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>About Us</h2>

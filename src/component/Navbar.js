@@ -38,6 +38,8 @@ const Navbar = (props) => {
   )
 }
 
+
+
 Navbar.propTypes = {
   title: propTypes.string
 }

@@ -60,14 +60,13 @@ export default function TextForm(props) {
                 </div>
 
                 <div className="button-box">
-                    <button disabled={text.length === 0} className="btn btn-primary mx-2" onClick={handleUpClick} > Convert to Uppercase </button>
+                    <button disabled={  text.length === 0} className="btn btn-primary mx-2" onClick={handleUpClick} > Convert to Uppercase </button>
                     <button disabled={text.length === 0} className="btn btn-primary mx-2" onClick={handleLowClick} > Convert to Lowercase </button>
                     <button disabled={text.length === 0} className="btn btn-primary mx-2" onClick={handleCopy} > Copy to Clipboard </button>
                     <button disabled={text.length === 0} className="btn btn-primary mx-2" onClick={handleRemoveExtraSpaces} > Remove Extra Spaces </button>
                     <button disabled={text.length === 0} className="btn btn-primary mx-2" onClick={handleCapitalize} > Capitalize Text </button>
 
                 </div>
-
 
             </div>
             <div className="container my-3 " style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
